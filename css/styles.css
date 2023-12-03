@@ -57,7 +57,10 @@ body {
     background:#D8D8D6;
     color:#161616;
     font-size: 18px;
+    line-height: 29px;
 }
+
+/** HEADER */
 
 .header {
     padding:25px 0;
@@ -70,7 +73,6 @@ body {
 
 .header-container{
     display: flex;
-
     justify-content: space-between;
     align-items: center;
 }
@@ -87,3 +89,43 @@ body {
     text-decoration: none;
     color: #161616;
 }
+
+/** MAIN  */
+
+
+.order-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 540px;
+}
+
+.order-header{
+    font-family: 'Architects Daughter',cursive;
+    font-size: 62px;
+    margin-bottom: 41px;
+}
+.order-text{
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.order-desc button {
+    padding: 20px 34px;
+    border-radius: 6px;
+    border:1px solid #81A36B;
+}
+.order-desc button > a{
+    text-decoration: none;
+    color:inherit
+}
+.order-button {
+    background-color: #81A36B;
+}
+.help-button {
+}
+
