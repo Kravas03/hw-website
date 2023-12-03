@@ -102,7 +102,7 @@ body {
     width: 540px;
 }
 
-.order-header{
+.order-title{
     font-family: 'Architects Daughter',cursive;
     font-size: 62px;
     margin-bottom: 41px;
@@ -114,18 +114,32 @@ body {
     display: flex;
     gap: 20px;
 }
-.order-desc button {
+
+.order-desc  a{
+    text-decoration: none;
+    color:inherit;
     padding: 20px 34px;
     border-radius: 6px;
     border:1px solid #81A36B;
 }
-.order-desc button > a{
-    text-decoration: none;
-    color:inherit
-}
 .order-button {
     background-color: #81A36B;
 }
-.help-button {
+
+/** ABOUT */
+
+.about-container{
+    padding: 120px 0;
 }
+.about-box {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
 
