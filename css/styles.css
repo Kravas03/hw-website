@@ -60,6 +60,11 @@ body {
     line-height: 29px;
 }
 
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+}
+
 /** HEADER */
 
 .header {
@@ -103,7 +108,7 @@ body {
 }
 
 .order-title{
-    font-family: 'Architects Daughter',cursive;
+
     font-size: 62px;
     margin-bottom: 41px;
 }
@@ -137,9 +142,36 @@ body {
     text-align: center;
 }
 .about-title {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 32px;
     margin-bottom: 50px;
+}
+/** ARROW */
+
+.arrow {
+    background: #81A36B;
+}
+
+.arrow-container {
+    display: flex;
+    background: #81A36B;
+    padding: 78px 0;
+}
+
+.arrow-images {
+    display: flex;
+    gap: 90px;
 }
 
 
+.how {
+}
+.how-container {
+}
+.how-title {   
+ margin-bottom: 50px;
+}
+.how-desc {
+}
+.how-image{
+    width: 540px;
+    height: 560px;
+}
