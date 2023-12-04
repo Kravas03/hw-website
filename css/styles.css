@@ -68,6 +68,14 @@ body {
     font-size: 32px;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main{
+    flex-grow: 1;
+}
 /** HEADER */
 
 .header {
@@ -106,7 +114,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.card{
+.card-flower{
     width: 540px;
 }
 
@@ -212,3 +220,37 @@ body {
 .card-text {
     text-align: center;
 }
+
+/** FOOTER */
+
+.footer {   
+     background: #81A36B;
+}
+.footer-container {
+
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-title {
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 50px;
+
+}
+
+.contacts-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contacts {
+    margin-bottom: 15px;
+}
+.netw {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.netw a {
+    text-decoration: none;
+}
+
