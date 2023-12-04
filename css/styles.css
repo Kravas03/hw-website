@@ -160,6 +160,8 @@ body {
     display: flex;
     gap: 90px;
 }
+
+/** HOW */
 .how-container {
     display: flex;
     gap: 30px;
@@ -169,4 +171,26 @@ body {
 .how-title {   
  margin-bottom: 50px;
  text-align: center;
+}
+
+/** CARDS */
+
+.cards-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+}
+.card {
+    background: #81A36B;
+    padding: 15px 15px 23px 15px;
+    gap: 30px;
+    flex: 1 1 30%;
+    
+}
+.card-image {
+}
+.card-text {
 }
