@@ -160,18 +160,13 @@ body {
     display: flex;
     gap: 90px;
 }
-
-
-.how {
-}
 .how-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 120px 0;
 }
 .how-title {   
  margin-bottom: 50px;
-}
-.how-desc {
-}
-.how-image{
-    width: 540px;
-    height: 560px;
+ text-align: center;
 }
