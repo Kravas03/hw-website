@@ -49,6 +49,9 @@ table {
 }
 /* _________________________________________________________________ */
 
+html, body {
+    height: 100%;
+}
 
 
 body {
@@ -175,22 +178,37 @@ body {
 
 /** CARDS */
 
+.cards-container{
+    padding: 120px 0;
+}
+
 .cards-title {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.cards-container {
+.cards-box {
     display: flex;
+    gap: 30px;
+
 }
 .card {
     background: #81A36B;
-    padding: 15px 15px 23px 15px;
-    gap: 30px;
+    padding: 15px 15px 40px 15px;
     flex: 1 1 30%;
-    
+    border-radius: 6px;
 }
 .card-image {
+    display: block;
+    margin-bottom: 23px;
+    height: 400px;
+
+}
+.card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .card-text {
+    text-align: center;
 }
